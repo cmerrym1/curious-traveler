@@ -1,8 +1,14 @@
 const { Model, DataTypes, STRING } = require('sequelize');
+
 const sequelize = require('../config/connection');
 
 // create our User model
 class User extends Model {}
+
+
+
+
+
 
 // define table columns and configuration
 // create the User class with the .init() method
