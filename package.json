@@ -1,0 +1,26 @@
+{
+  "name": "curious-traveler",
+  "version": "1.0.0",
+  "description": "Demonstrate  a full-stack web app built by  a team of developers",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmerrym1/curious-traveler.git"
+  },
+  "author": "Shybreasia Fleetwood, Cheri Merryman, Tammy Fina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cmerrym1/curious-traveler/issues"
+  },
+  "homepage": "https://github.com/cmerrym1/curious-traveler#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.16.0"
+  }
+}
