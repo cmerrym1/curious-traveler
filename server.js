@@ -1,17 +1,12 @@
-const express = require('express');
-const routes = require('./controllers');
-// import the connection to Sequelize
-const sequelize = require('./config/connection');
 const path = require('path');
-const helpers = require('./utils/helpers');
+const express = require('express');
+const session = require('express-session');
+const exphbs = require('express-handlebars');
+
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-const exphbs = require('express-handlebars');
-const hbs = exphbs.create({ helpers });
-
-
-const session = require('express-session');
+const sequelize = require("./config/connection");
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
 const sess = {
@@ -26,19 +21,19 @@ const sess = {
 
 app.use(session(sess));
 
+const helpers = require('./utils/helpers');
+
+const hbs = exphbs.create({ helpers });
+
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
-app.use(require('./controllers/'));
+
 app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
+app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
-// turn on routes
-app.use(routes);
+app.use(require('./controllers/'));
 
-// turn on connection to db and server
-// set to true to drop and re-create all of the database tables on startup
-// don't forget to set it back to false after re-creating the tables!
 sequelize.sync({ force: false }).then(() => {
-    app.listen(PORT, () => console.log('Now listening to the Curious Traveler!'));
+  app.listen(PORT, () => console.log('Now listening'));
 });
