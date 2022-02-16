@@ -138,6 +138,10 @@ main {
   line-height: 150%;
 }
 
+.title {
+  margin-bottom: 2%;
+}
+
 .post-list {
   line-height: 75px;
   margin: 0;
