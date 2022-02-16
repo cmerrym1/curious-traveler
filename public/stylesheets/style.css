@@ -9,7 +9,7 @@ body, html {
   font-family: sans-serif;
   color: black;
   font-weight: bold;
-  background-color: rgb(216, 198, 175);
+  background-color: tan;
   background-image: url("/images/map.png");
 }
 
@@ -43,7 +43,7 @@ button:hover {
 .container {
   margin: 0 auto;
   display: flex;
-  background-color: rgb(205, 186, 161);
+  background-color: rgb(246, 234, 219);
 }
   
 .post-list {
