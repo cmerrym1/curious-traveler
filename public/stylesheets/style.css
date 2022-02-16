@@ -150,6 +150,11 @@ main {
   font-weight: bold;
 }
 
+.list {
+  margin-top: 10px;
+  line-height: 1.8;
+}
+
 .edit-link {
   display: block;
   margin: -1.5% 0 2% 0;
@@ -178,9 +183,7 @@ main {
   width: 300px;
 }
 
-.list {
-  margin-top: 10px;
-}
+
 
 .edit-post-form {
   margin-bottom: 5%;
