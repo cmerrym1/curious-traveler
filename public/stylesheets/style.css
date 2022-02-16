@@ -40,6 +40,12 @@ button:hover {
   border: solid 1px black;
 }
 
+.container {
+  margin: 0 auto;
+  display: flex;
+  background-color: tan;
+}
+  
 .post-list {
   margin: 0;
   padding: 0;
