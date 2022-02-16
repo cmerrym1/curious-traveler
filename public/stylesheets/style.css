@@ -7,22 +7,24 @@ body, html {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
-  color: #333;
+  color: black;
+  font-weight: bold;
+  background-color: tan;
+  background-image: url("/images/map.png");
 }
 
 a {
   text-decoration: none;
-  color: #225ca3;
+  color: black;
+  background-color: white;
   font-weight: bold;
   transition: color .1s;
-}
-
-a:hover {
-  color: #3486eb;
+  padding: 5px;
+  border-radius: 25px;
 }
 
 button {
-  background-color: #225ca3;
+  background-color: black;
   border: 0;
   padding: 1%;
   color: white;
@@ -33,7 +35,9 @@ button {
 }
 
 button:hover {
-  background-color: #3486eb;
+  background-color: white;
+  color: black;
+  border: solid 1px black;
 }
 
 .post-list {
@@ -63,6 +67,12 @@ form > div {
 
 form label {
   display: block;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  padding: 3px;
+  width: 183px;
+  border-radius: 5px;
 }
 
 .wrapper {
@@ -75,15 +85,20 @@ form label {
 }
 
 header {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #654321;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 1%;
 }
 
-header h1 {
-  font-size: 1em;
+.ribbon {
+  background-color: none;
+  margin: 0px;
+}
+
+header img {
+  margin: 20px 0px 20px 0px;
 }
 
 main {
@@ -125,21 +140,13 @@ main {
 .post .title span {
   font-style: italic;
   font-size: 90%;
-  color: #7d7d7d;
+  color: white;
+  font-weight: bold;
 }
 
 .edit-link {
   display: block;
   margin: -1.5% 0 2% 0;
-}
-
-.upvote-btn {
-  background-color: #197d0f;
-  transition: background-color .1s;
-}
-
-.upvote-btn:hover {
-  background-color: #1f9c13;
 }
 
 .comment-form {
@@ -152,7 +159,7 @@ main {
 }
 
 .comment:nth-child(odd) {
-  background-color: #fff5eb;
+  background-color: white;
 }
 
 .comment .meta {
@@ -170,7 +177,6 @@ main {
 }
 
 footer {
-  border-top: 1px solid #ccc;
   display: flex;
   justify-content: center;
   padding: 1%;
