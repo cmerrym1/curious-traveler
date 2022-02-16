@@ -9,7 +9,7 @@ body, html {
   font-family: sans-serif;
   color: black;
   font-weight: bold;
-  background-color: tan;
+  background-color: rgb(216, 198, 175);
   background-image: url("/images/map.png");
 }
 
