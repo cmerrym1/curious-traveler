@@ -43,7 +43,7 @@ button:hover {
 .container {
   margin: 0 auto;
   display: flex;
-  background-color: tan;
+  background-color: rgb(205, 186, 161);
 }
   
 .post-list {
