@@ -40,9 +40,10 @@ button:hover {
   border: solid 1px black;
 }
 
-.post-list {
-  margin: 0;
-  padding: 0;
+.container {
+  margin: 0 auto;
+  display: flex;
+  background-color: rgb(175, 114, 45);
 }
 
 textarea, input {
@@ -92,8 +93,8 @@ header {
   padding: 0 1%;
 }
 
-.ribbon {
-  background-color: none;
+.ribbon a {
+  background-color: transparent;
   margin: 0px;
 }
 
@@ -125,7 +126,7 @@ main {
 }
 
 .delete-post-btn {
-  background-color: #d41414;
+  background-color: #471e1e;
 }
 
 .delete-post-btn:hover {
@@ -137,11 +138,24 @@ main {
   line-height: 150%;
 }
 
+.title {
+  margin-bottom: 2%;
+}
+
+.post-list {
+  line-height: 75px;
+  margin: 0;
+  padding: 0;
+}
 .post .title span {
   font-style: italic;
   font-size: 90%;
   color: white;
   font-weight: bold;
+}
+
+.list {
+  margin-top: 10px;
 }
 
 .edit-link {
@@ -171,6 +185,8 @@ main {
 .new-post-form input {
   width: 300px;
 }
+
+
 
 .edit-post-form {
   margin-bottom: 5%;
