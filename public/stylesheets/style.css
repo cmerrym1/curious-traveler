@@ -97,9 +97,8 @@ header {
   padding: 0 1%;
 }
 
-.ribbon {
-  background-color: none;
-  margin: 0px;
+.ribbon a {
+  background-color: transparent;
 }
 
 header img {
