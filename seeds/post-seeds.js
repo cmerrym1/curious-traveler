@@ -15,6 +15,11 @@ const postdata = [
     title: 'Leetonia Beehive Coke Ovens Park',
     post_url: 'https://ohio.org/things-to-do/destinations/leetonia-beehive-coke-ovens-park',
     user_id: 3
+  },
+  {
+    title: 'Wigwam Motel, Holbrook, AZ',
+    post_url: 'http://www.sleepinawigwam.com/index.html',
+    user_id: 2
   }
 ];
 
