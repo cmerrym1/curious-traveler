@@ -1,10 +1,11 @@
 const router = require('express').Router();
 const sequelize = require('../config/connection');
 const { Post, User, Comment } = require('../models');
+const chalk = require('chalk');
 
 // get all posts for homepage
 router.get('/', (req, res) => {
-  console.log('======================');
+  console.log(chalk.blue('===Get All Posts for Homepage==='));
   Post.findAll({
     attributes: [
       'id',
@@ -36,7 +37,7 @@ router.get('/', (req, res) => {
       });
     })
     .catch(err => {
-      console.log(err);
+      console.log(chalk.red(err));
       res.status(500).json(err);
     });
 });
@@ -82,7 +83,7 @@ router.get('/post/:id', (req, res) => {
       });
     })
     .catch(err => {
-      console.log(err);
+      console.log(chalk.red(err));
       res.status(500).json(err);
     });
 });
