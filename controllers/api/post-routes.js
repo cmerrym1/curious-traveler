@@ -2,10 +2,10 @@ const router = require('express').Router();
 const sequelize = require('../../config/connection');
 const withAuth = require('../../utils/auth');
 const { Post, User, Comment } = require('../../models');
-
+const chalk = require('chalk');
 // get all posts
 router.get('/', (req, res) => {
-  console.log('*=*=*=*=*=*=*=*=*=*=*');
+  console.log(chalk.blue('*=*=*=*=Get All Posts*=*=*=*=*=*=*'));
   Post.findAll({
     attributes: [
       'id',
@@ -31,7 +31,7 @@ router.get('/', (req, res) => {
   })
     .then(dbPostData => res.json(dbPostData))
     .catch(err => {
-      console.log(err);
+      console.log(chalk.red(err));
       res.status(500).json(err);
     });
 });
@@ -71,7 +71,7 @@ router.get('/:id', (req, res) => {
       res.json(dbPostData);
     })
     .catch(err => {
-      console.log(err);
+      console.log(chalk.red(err));
       res.status(500).json(err);
     });
 });
@@ -85,7 +85,7 @@ router.post('/', withAuth, (req, res) => {
   })
     .then(dbPostData => res.json(dbPostData))
     .catch(err => {
-      console.log(err);
+      console.log(chalk.red(err));
       res.status(500).json(err);
     });
 });
@@ -109,7 +109,7 @@ router.put('/:id', withAuth, (req, res) => {
       res.json(dbPostData);
     })
     .catch(err => {
-      console.log(err);
+      console.log(chalk.red(err));
       res.status(500).json(err);
     });
 });
@@ -128,7 +128,7 @@ router.delete('/:id', withAuth, (req, res) => {
       res.json(dbPostData);
     })
     .catch(err => {
-      console.log(err);
+      console.log(chalk.red(err));
       res.status(500).json(err);
     });
 });

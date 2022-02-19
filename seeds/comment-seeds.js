@@ -1,4 +1,5 @@
 const { Comment } = require('../models');
+const chalk = require('chalk');
 
 const commentdata = [
   {
@@ -15,9 +16,14 @@ const commentdata = [
     comment_text: 'Adding this to my roadtrip list!',
     user_id: 1,
     post_id: 3
+  },
+  {
+    comment_text: 'Sooo retro!',
+    user_id: 3,
+    post_id: 4
   }
 ];
-
+console.log(chalk.green('updating comment table with new data'));
 const seedComments = () => Comment.bulkCreate(commentdata);
 
 module.exports = seedComments;
