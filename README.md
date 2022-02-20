@@ -12,19 +12,23 @@ The link to the deployed application is here:
 ![alt text](/public/images/Homepage-Screenshot.JPG "Curious Traveler Homepage")
 
 ## Table of Contents
-* [Installation](#installation)
+* [Technologies Used](#technologies)
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [Credits](#credits)
 * [License](#license)
 * [Questions](#questions)
 
-## Installation
-No installation required.
+## Technologies
+- Node.js and Express.js to create a RESTful API
+- Handlebars.js as the template engine
+- MySQL and Sequelize ORM for the database
+Heroku for deployment
+- chalk for CLI string styling
 
 ## Usage
 Visit https://blooming-ridge-28074.herokuapp.com/ 
-sign up/log in and discover all the curious places to be found!
+sign up or log in and discover all the curious places to be found!
 
 ## Contributing
 Please contribute to the webpage by adding your favorite obscure or unique destinations!    
@@ -47,11 +51,11 @@ GitHub Username:
 cmerry1
 
 Additional Questions?  Contact us at:
-cmerrym1@kent.edu
-fleetwoodshybreasia@gmail.com
-finatammy@gmail.com
+- cmerrym1@kent.edu
+- fleetwoodshybreasia@gmail.com
+- finatammy@gmail.com
 
 
 <p align='center'><i>
-   @ 2022 This README was generated with ❤️ by Curious Traveler
+   @ 2022 This README was generated with ❤️ by the Curious Traveler
   </i></p>
