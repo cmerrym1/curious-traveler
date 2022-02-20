@@ -33,8 +33,8 @@ Not currently seeking contributors to the repo, but you can contribute to the we
 none
     
 ## Credits
-Back end development: Tammy Fina
-Front End development: Shybreasia Fleetwood/Cheri Merryman
+* Back end development: Tammy Fina
+* Front End development: Shybreasia Fleetwood/Cheri Merryman
     
 ## License
 
@@ -43,8 +43,8 @@ Front End development: Shybreasia Fleetwood/Cheri Merryman
 ## Badges
 
 ## Features
-~ Create Posts
-~ Comment on Posts
+* Create Posts
+*~* Comment on Posts
 ## Questions
 
 GitHub Username:
