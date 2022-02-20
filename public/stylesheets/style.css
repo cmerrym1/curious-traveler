@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-body, html {
+body {
   height: 100%;
   padding: 0;
   margin: 0;
@@ -10,7 +10,11 @@ body, html {
   color: black;
   font-weight: bold;
   background-color: tan;
+}
+
+body {
   background-image: url("/images/map.png");
+  background-size: cover;
 }
 
 a {
@@ -83,6 +87,12 @@ form label {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  z-index: 1;
 }
 
 header {
@@ -91,6 +101,14 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0 1%;
+}
+
+.cat img {
+  width: 100%
+}
+
+.ribbon img {
+  width: 100%
 }
 
 .ribbon a {
