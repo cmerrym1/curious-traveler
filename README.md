@@ -23,7 +23,7 @@ The link to the deployed application is here:
 - Node.js and Express.js to create a RESTful API
 - Handlebars.js as the template engine
 - MySQL and Sequelize ORM for the database
-Heroku for deployment
+- Heroku for deployment
 - chalk for CLI string styling
 
 ## Usage
