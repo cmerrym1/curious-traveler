@@ -11,13 +11,10 @@
 <body>
   <div class="wrapper">
     <header>
-      <div class='cat'>
       <img src="/images/curious-cat.png" alt="" />
-      </div>
       <div class = "ribbon">
         <a href="/"><img src="/images/ribbon.png" alt=" "></a>
       </div>
-    </header>
       <nav>
         {{#if loggedIn}}
         <a href="/dashboard">dashboard</a>
@@ -28,6 +25,7 @@
         <a href="/login">login</a>
         {{/if}}
       </nav>
+    </header>
     <main class="container">
       {{{ body }}}
     </main>

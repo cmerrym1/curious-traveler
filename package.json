@@ -20,7 +20,7 @@
   "homepage": "https://github.com/cmerrym1/curious-traveler#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
-    "chalk": "^4.1.0",
+    "chalk": "^4.1.2",
     "connect-session-sequelize": "^7.1.2",
     "dotenv": "^16.0.0",
     "epress": "^0.0.1-security",
