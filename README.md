@@ -44,7 +44,7 @@ none
 
 ## Features
 * Create Posts
-*~* Comment on Posts
+* Comment on Posts
 ## Questions
 
 GitHub Username:
