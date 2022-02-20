@@ -95,6 +95,11 @@ form label {
   z-index: 1;
 }
 
+.container {
+  margin: 0 auto;
+  background-color: rgb(175, 114, 45);
+}
+
 header {
   border-bottom: 1px solid #654321;
   display: flex;
@@ -126,21 +131,23 @@ main {
 }
 
 .btn-no-style {
-  background: none;
-  border: none;
-  padding: 0;
-  cursor: pointer;
   text-decoration: none;
-  color: #225ca3;
-  font-size: 100%;
+  color: white;
+  background-color: black;
   font-weight: bold;
   transition: color .1s;
-  margin-left: 16px;
+  padding: 5px;
+  border-radius: 25px;
+  margin-top: 10px;
+  font-size: 16px;
+  width: 90px;
+  text-align: center;
 }
 
-.btn-no-style:hover {
-  background: none;
-  color: #3486eb;
+.logout-button :hover {
+  background-color: black;
+  color: white;
+  border: none;
 }
 
 .delete-post-btn {
@@ -203,8 +210,6 @@ main {
 .new-post-form input {
   width: 300px;
 }
-
-
 
 .edit-post-form {
   margin-bottom: 5%;
