@@ -4,13 +4,12 @@
 [![license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## <a name="Description">Description</a>
-Find curious stops on your journey.
+The purpose of this app is to help travlers find curious stops on their journey. Users of the app can become a member and create posts and comments. Non-members can only view the posts/comments.
 
 The link to the deployed application is here:
+[GitHub](https://github.com/cmerrym1/curious-traveler)
 
-[Repository for this Project](cmerrym1)
-
-![Finished Mock Up]
+![alt text](/public/images/Homepage-Screenshot.JPG "Curious Traveler Homepage")
 
 ## Table of Contents
 * [Installation](#installation)
@@ -22,19 +21,20 @@ The link to the deployed application is here:
 * [Questions](#questions)
 
 ## Installation
-
+No installation required.
 
 ## Usage
-no instructions
+Visit https://blooming-ridge-28074.herokuapp.com/ sign up/log in and discover all the curious places to be found!
 
 ## Contributing
-contribute
+Not currently seeking contributors to the repo, but you can contribute to the webpage by adding your favorite ocsure or unique destinations!
     
 ## Tests
 none
     
 ## Credits
-many
+Back end development: Tammy Fina
+Front End development: Shybreasia Fleetwood/Cheri Merryman
     
 ## License
 
@@ -43,14 +43,15 @@ many
 ## Badges
 
 ## Features
-
+~ Create Posts
+~ Comment on Posts
 ## Questions
 
 GitHub Username:
 cmerry1
 
 Additional Questions?  Contact me at:
-cmer@kent.edu
+cmerrym1@kent.edu
 
 <p align='center'><i>
    @ 2022 This README was generated with ❤️ by Curious Traveler
